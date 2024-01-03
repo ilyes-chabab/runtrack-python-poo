@@ -15,16 +15,16 @@ class student:
     def __studentEval(self):
         if self.__Credit >= 90:
             return "Excellent"
-        if self.__Credit >= 80:
-            return "Trés bien"
-        if self.__Credit >= 70:
+        elif self.__Credit >= 80:
+            return "Très bien"
+        elif self.__Credit >= 70:
             return "Bien"
-        if self.__Credit >= 60:
+        elif self.__Credit >= 60:
             return "Passable"
-        if self.__Credit < 60:
+        else:
             return "Insuffisant"
     def studentInfo(self):
-        print(f"Nom : {self.__nom} \nprenom : {self.__prenom} \nId : {self.__NumeroEtudiant} \nNiveau : {self.__level}")
+        print(f"Nom : {self.__nom} \nprenom : {self.__prenom} \nId : {self.__NumeroEtudiant} \nNiveau : {self.__studentEval()}")
 etudiant1=student("Doe", "John", 145)
 etudiant1.add_credit(10)
 etudiant1.add_credit(10)
