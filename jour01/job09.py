@@ -17,9 +17,11 @@ class produit:
 chips=produit("chips",100,50)
 chips.ChangerPrixHT(50)
 print(chips.afficher())
+
 sandwich=produit("sandwich",200,20)
 sandwich.ChangerNom("hamburger")
 print(sandwich.afficher())
+
 dessert=produit("dessert",150,30)
 print(dessert.afficher())
 
