@@ -3,8 +3,8 @@ class Tache:
         self.titre=titre  
         self.description=description
         self.statut="à faire"
-    def __str__(self):
-        return f"Titre: {self.titre}, Description: {self.description}, Statut: {self.statut}"
+    # def __str__(self):
+        # return f"Titre: {self.titre}, Description: {self.description}, Statut: {self.statut}"
 
 class ListeDeTaches:
     def __init__(self):

@@ -16,7 +16,7 @@ class Joueur:
     def recevoirUnCartonRouge(self):
         self.cartons_rouges +=1
     def afficherStatistiques(self):
-        print(f"Satistiques {self.nom} \nnumero : {self.numero} \nposition: {self.position} \nbut:{ self.buts} \npasses_D :{ self.passes_D} \ncartons_jaunes: {self.cartons_jaunes}\ncartons_rouges : {self.cartons_rouges}")
+        print(f"Satistiques {self.nom} \nnumero : {self.numero} \nposition: {self.position} \nbut:{ self.buts} \npasses_D :{ self.passes_D} \ncartons_jaunes: {self.cartons_jaunes}\ncartons_rouges : {self.cartons_rouges}\n")
 class Equipe:
     def __init__(self,nom):
         self.nom = nom
